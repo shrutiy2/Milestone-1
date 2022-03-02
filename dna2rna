@@ -1,6 +1,8 @@
 def dna2rna(dna):
     rna = ''
-    for symbol in dna:
-        if symbol == 'T':
-            rna = rna + 'U'
+    for i in dna:
+        if i == "T":
+            rna += "U"
+        else:
+            rna += i
     return rna
