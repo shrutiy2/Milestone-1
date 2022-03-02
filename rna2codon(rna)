@@ -12,6 +12,7 @@ def rna2codon(triplet):
         'UGU': 'C', 'UGC': 'C', 'UGA': '*', 'UGG': 'W',        'CGU': 'R', 'CGC': 'R', 'CGA': 'R', 'CGG': 'R',
         'AGU': 'S', 'AGC': 'S', 'AGA': 'R', 'AGG': 'R',        'GGU': 'G', 'GGC': 'G', 'GGA': 'G', 'GGG': 'G',
     }
+    
     allowed_codons = set('ACGU')
     for symbol in triplet:
         if symbol not in allowed_codons:
