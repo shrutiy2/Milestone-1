@@ -1,0 +1,10 @@
+def count_dom_phenotype(genotypes):
+
+    genotypes[0] *= 2
+    genotypes[1] *= 2 
+    genotypes[2] *= 2
+    genotypes[3] *= 0.75*2
+    genotypes[4] *= 0.5*2
+    genotypes[5] *= 0
+
+    return  v[0] + v[1] + v[2] + v[3] + v[4] + v[5]
