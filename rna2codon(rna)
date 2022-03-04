@@ -32,5 +32,6 @@ def rna2codon(rna):
                 break
             else:
                 break
-            
+        if genetic_code[symbol] == '*':
+            break
     return x
