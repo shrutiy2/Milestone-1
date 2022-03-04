@@ -27,6 +27,8 @@ def rna2codon(rna):
                 continue
             else:
                 return False
+    x = ''
     for symbol in m:
-        print(genetic_code[symbol])
-     
+        
+        x += genetic_code[symbol]
+    print(x)
