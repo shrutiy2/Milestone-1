@@ -1,7 +1,7 @@
 n = 3
 m = []
-for i in range(0,len(triplet), n):
-    m.append(triplet[i:i+n])
+for i in range(0,len(rna), n):
+    m.append(rna[i:i+n])
 def rna2codon(m):
     
     
