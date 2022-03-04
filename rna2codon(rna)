@@ -31,4 +31,4 @@ def rna2codon(rna):
     for symbol in m:
         
         x += genetic_code[symbol]
-    print(x)
+    return x
