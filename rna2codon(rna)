@@ -29,5 +29,4 @@ def rna2codon(rna):
                 return False
     for symbol in m:
         print(genetic_code[symbol])
-        
-rna2codon(rna)
+     
