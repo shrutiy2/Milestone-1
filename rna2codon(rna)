@@ -1,10 +1,9 @@
-n = 3
-m = []
-for i in range(0,len(rna), n):
-    m.append(rna[i:i+n])
-def rna2codon(m):
+def rna2codon(rna):
     
-    
+    n = 3
+    m = []
+    for i in range(0,len(rna), n):
+        m.append(rna[i:i+n])
     genetic_code = {
         'UUU': 'F', 'UUC': 'F', 'UUA': 'L', 'UUG': 'L',        'CUU': 'L', 'CUC': 'L', 'CUA': 'L', 'CUG': 'L',
         'AUU': 'I', 'AUC': 'I', 'AUA': 'I', 'AUG': 'M',        'GUU': 'V', 'GUC': 'V', 'GUA': 'V', 'GUG': 'V',
@@ -30,3 +29,5 @@ def rna2codon(m):
                 return False
     for symbol in m:
         print(genetic_code[symbol])
+        
+rna2codon(rna)
